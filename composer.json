@@ -1,5 +1,6 @@
 {
     "require": {
-        "symfony/console": "^5.3"
+        "symfony/console": "^5.3",
+        "symfony/finder": "^5.3"
     }
 }

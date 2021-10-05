@@ -5,7 +5,7 @@
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '5c95e5d65d62289db5a5f900adf95c5a86bb2557',
+        'reference' => 'a97ca635870b4ec70fcce9f0ed314d2e3f7c5e88',
         'name' => '__root__',
         'dev' => true,
     ),
@@ -16,7 +16,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '5c95e5d65d62289db5a5f900adf95c5a86bb2557',
+            'reference' => 'a97ca635870b4ec70fcce9f0ed314d2e3f7c5e88',
             'dev_requirement' => false,
         ),
         'psr/container' => array(
@@ -50,6 +50,15 @@
             'install_path' => __DIR__ . '/../symfony/deprecation-contracts',
             'aliases' => array(),
             'reference' => '5f38c8804a9e97d23e0c8d63341088cd8a22d627',
+            'dev_requirement' => false,
+        ),
+        'symfony/finder' => array(
+            'pretty_version' => 'v5.3.7',
+            'version' => '5.3.7.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../symfony/finder',
+            'aliases' => array(),
+            'reference' => 'a10000ada1e600d109a6c7632e9ac42e8bf2fb93',
             'dev_requirement' => false,
         ),
         'symfony/polyfill-ctype' => array(
