@@ -18,17 +18,4 @@ class DefaultController extends Controller
             'base_dir' => realpath($this->getParameter('kernel.project_dir')).DIRECTORY_SEPARATOR,
         ]);
     }
-    /**
-     * @Route("/hello/{name}.{_format}",
-     *     defaults = {"_format"="html"},
-     *     requirements = { "_format" = "html|xml|json" },
-     *     name = "hello"
-     * )
-     */
-    public function helloAction($name, $_format)
-    {
-        return $this->render('default/hello.'.$_format.'.twig', array(
-            'name' => $name
-        ));
-    }
 }
